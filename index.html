@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet">
+    <script defer src="js/main.js"></script>
+    <title>RandomUser</title>
+</head>
+
+<body>
+    <button onclick="loadUser()">Load User</button>
+    <select id="selectOrder">
+        <option value="1">Alphabetical Order</option>
+        <option value="-1">Reverse Alphabetical Order</option>
+    </select>
+    <select id="selectLetter">
+        <option value="0">first letter</option>
+        <option value="1">second letter</option>
+        <option value="2">third letter</option>
+    </select>
+    <button onclick="SortBtn()">Sort</button>
+    <ol id="myOl"></ol>
+    <div class="popUp">
+        <div class="HideMyDivBtn" onclick="HideMyDivBtn()"></div>
+        <img id="img2" src="" alt="альтернативный текст">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+</body>
+
+</html>
